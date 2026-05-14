@@ -11,7 +11,7 @@ spec:
         autoscaling.knative.dev/max-scale: "5"
     spec:
       containers:
-        - image: ghcr.io/wajeehahamid/hello-manara:92eb371
+        - image: ghcr.io/wajeehahamid/hello-manara:52e362e
           ports:
             - containerPort: 8080
           resources:
