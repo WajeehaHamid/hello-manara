@@ -8,7 +8,7 @@ import (
 	"time"
 )
 
-const greeting = "hello from manara — pushed from github"
+const greeting = "v2: real GitOps round-trip works — edited locally, pushed, built by Actions, synced by Argo CD"
 
 func main() {
 	port := os.Getenv("PORT")
